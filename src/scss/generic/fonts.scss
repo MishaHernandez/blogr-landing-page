@@ -1,29 +1,34 @@
 @font-face {
     font-family: 'Overpass';
-    src: url('../../fonts/Overpass-Light.ttf') format('ttf');
+    src: url('../fonts/Overpass-Light.ttf') format('truetype');
     font-weight: 300;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Overpass';
-    src: url('../../fonts/Overpass-SemiBold.ttf') format('ttf');
+    src: url('../fonts/Overpass-SemiBold.ttf') format('truetype');
     font-weight: 600;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../../fonts/Ubuntu-Regular.ttf') format('ttf');
+    src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
     font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../../fonts/Ubuntu-Medium.ttf') format('ttf');
+    src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
     font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('../../fonts/Ubuntu-Bold.ttf') format('ttf');
+    src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
     font-weight: 700;
+    font-style: normal;
 }
