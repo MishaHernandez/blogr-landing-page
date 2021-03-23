@@ -1,4 +1,8 @@
+// fonts
+import "../fonts/Overpass-Light.ttf";
+// sass
 import "../scss/main.scss";
+// images
 import logo from "../images/logo.svg";
 import bgPatternCircles from "../images/bg-pattern-circles.svg";
 import bgPatternIntro from "../images/bg-pattern-intro.svg";
