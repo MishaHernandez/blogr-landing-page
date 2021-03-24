@@ -1,0 +1,20 @@
+.cta__button {
+    display: inline-block;
+    font-family: $font2;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 14px 1.25rem;
+
+    &--primary {
+        color: $cta-text;
+        background-color: #fff;
+        border-radius: 2rem;
+    }
+
+    &--secondary {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 2rem;
+    }
+}

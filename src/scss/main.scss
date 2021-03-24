@@ -1,9 +1,14 @@
 @import 'generic/base';
+@import 'generic/normalize';
 @import 'generic/fonts';
+@import 'settings/variables';
+@import 'layouts/header';
+@import 'components/navbar';
+@import 'components/buttons';
 @import 'layouts/footer';
 
 body {
-    font-family: "Overpass";
+    font-family: $font1;
     font-weight: 300;
     font-size: 16px;
 }

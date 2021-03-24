@@ -17,3 +17,6 @@
 
 # personal
 node_modules
+
+# only in development
+dist

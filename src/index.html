@@ -12,8 +12,10 @@
 <body>
   <header>
     <div class="navbar">
-      <img class="navbar__logo" src="./images/logo.svg" alt="logo Blogr">
-      <div class="menu">
+      <img class="navbar__logo" src="./images/logo.svg" alt="Blogr logo">
+      <img class="navbar__menu-icon" src="./images/icon-hamburger.svg" alt="Hamburger icon">
+
+      <div class="navbar__menu">
         <div>
           Product
         
@@ -48,18 +50,20 @@
         </div>
       </div>
       
-      <div>
+      <div class="navbar__session">
         <a href="#">Login</a>
         <a href="#">Sign Up</a>
       </div>
     </div>
   
     <div class="cta">
-      <h1>A modern publishing platform</h1>
-      <h3>Grow your audience and build your online brand</h3>
+      <h1 class="cta__title">A modern publishing platform</h1>
+      <h3 class="cta__subtitle">Grow your audience and build your online brand</h3>
     
-      <a href="#">Start for Free</a>
-      <a href="#">Learn More</a>
+      <div class="cta__buttons">
+        <a class="cta__button cta__button--primary" href="#">Start for Free</a>
+        <a class="cta__button cta__button--secondary" href="#">Learn More</a>
+      </div>
     </div>
   </header>
 
