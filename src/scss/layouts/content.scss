@@ -1,0 +1,55 @@
+.main {
+    &__subtitle {
+        text-align: center;
+        margin-top: 6.6875rem;
+        margin-bottom: 2.8rem;
+        color: $headings;
+    }
+    &__illustration--large {
+        position: absolute;
+        top: -180px;
+    }
+    &__section {
+        &:nth-of-type(1) {
+            margin-bottom: 16.2rem;
+        }
+    }
+    &__section--large {
+        position: relative;
+        background-color: $very-dark-desaturated-blue;
+        background-image: url('../images/bg-pattern-circles.svg');
+        background-size: cover;
+        border-top-right-radius: 6rem;
+        border-bottom-left-radius: 6rem;
+        padding-top: 14.2rem;
+        padding-bottom: 4.25rem;
+        margin-bottom: 4rem;
+    }
+    &__article {
+        width: 79%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2.72rem;
+
+        &-title {
+            margin-bottom: 1rem;
+            color: $headings;
+        }
+        &-title--large {
+            font-size: 38px;
+            color: $text;
+            margin-top: 0;
+        }
+        &-paragraph {
+            line-height: 1.8;
+            color: $body-copy;
+        }
+        &-paragraph--large {
+            color: $text;
+        }
+    }
+    // &__article--large {
+    //     background-color: $very-dark-desaturated-blue;
+    // }
+}
