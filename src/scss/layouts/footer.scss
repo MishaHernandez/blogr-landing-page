@@ -1,8 +1,43 @@
-.attribution {
-    font-size: 11px;
-    text-align: center;
+footer {
+    background-color: $footer-bg;
+    padding-top: 4.5rem;
+    border-top-right-radius: 6rem;
+}
 
-    &__link {
-        color: hsl(228, 45%, 44%);
+.footer {
+    &__illustration {
+        display: block;
+        width: 6.25rem;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 5rem;
+    }
+    &__article {
+        text-align: center;
+        color: $text;
+        margin-bottom: 3.2rem;
+        font-size: 18px;
+
+        &-info {
+            display: inline-flex;
+            flex-direction: column;
+            row-gap: 1rem;
+        }
+
+        &-link {
+            text-decoration: none;
+            font-family: $font2;
+            color: $footer-text;
+        }
+    }
+    &__attribution {
+        color: $footer-text;
+        font-size: 11px;
+        text-align: center;
+
+        &-link {
+            color: hsl(355, 100%, 74%);
+        }
     }
 }
