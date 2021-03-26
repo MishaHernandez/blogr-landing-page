@@ -30,6 +30,11 @@
         font-size: 17px;
         color: $headings;
         font-weight: 700;
+        @include desktop-up {
+            color: $text;
+            font-family: $font2;
+            font-size: 16px;
+        }
     }
 
     &:last-child {
@@ -39,5 +44,10 @@
         color: $text;
         border-radius: 2rem;
         padding: 14px 2.3rem;
+        @include desktop-up {
+            background-image: none;
+            background-color: #fff;
+            color: $cta-text;
+        }
     }
 }

@@ -8,20 +8,42 @@
         text-align: center;
         padding: 1.4375rem 1.4375rem;
         border-radius: 4px;
+        @include desktop-up {
+            position: static;
+            display: flex;
+            justify-content: space-between;
+            background-color: transparent;
+            padding-left: 0;
+            padding-right: 0;
+            // width: 87.2%;
+        }
     }
     &__menu {
         font-weight: 600;
         border-bottom: 1px solid rgba(211, 211, 211, .5);
-
+        @include desktop-up {
+            display: flex;
+            border-bottom: 0;
+        }
+        
         &-item {
             font-size: 17px;
             color: $headings;
             cursor: default;
+            @include desktop-up {
+                color: $text;
+                margin-right: 2rem;
+                font-family: $font2;
+                font-size: 16px;
+            }
             
             img {
                 width: 10px;
                 margin-left: 4px;
                 pointer-events: none;
+                @include desktop-up {
+                    content: url("../images/icon-arrow-light.svg");
+                }
             }
         }
     }
@@ -32,8 +54,10 @@
         padding: 1rem;
         height: 0;
         padding: 0;
-        // margin: 0;
         overflow-y: hidden;
+        @include desktop-up {
+            margin: 0;
+        }
 
         &-link {
             display: inline-block;
@@ -49,6 +73,12 @@
         row-gap: 1rem;
         padding-top: 2rem; /* test */
         padding-bottom: 8px;
+        @include desktop-up {
+            flex-direction: row;
+            align-items: center;
+            column-gap: 2rem;
+            padding: 0;
+        }
 
         // &-link { }
     }
