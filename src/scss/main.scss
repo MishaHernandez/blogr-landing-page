@@ -4,9 +4,11 @@
 @import 'settings/variables';
 @import 'layouts/header';
 @import 'components/navbar';
+@import 'components/menu';
 @import 'components/buttons';
 @import 'layouts/content';
 @import 'layouts/footer';
+@import 'layouts/hooks';
 
 body {
     font-family: $font1;

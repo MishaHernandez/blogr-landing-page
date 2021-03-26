@@ -13,48 +13,50 @@
   <header>
     <div class="navbar">
       <img class="navbar__logo" src="./images/logo.svg" alt="Blogr logo">
-      <img class="navbar__menu-icon" src="./images/icon-hamburger.svg" alt="Hamburger icon">
+      <img id="menuIcon" class="navbar__menu-icon" src="./images/icon-hamburger.svg" alt="Hamburger icon">
 
-      <div class="navbar__menu">
-        <div>
-          Product
+      <div id="menu" class="navbar__menu-session">
+        <div class="navbar__menu">
+          <div>
+            <p class="navbar__menu-item">Product <img src="./images/icon-arrow-dark.svg" alt="arrow"></p>
+          
+           <ul class="navbar__submenu">
+              <li><a class="navbar__submenu-link" href="#">Overview</a></li>
+              <li><a class="navbar__submenu-link" href="#">Pricing</a></li>
+              <li><a class="navbar__submenu-link" href="#">Marketplace</a></li>
+              <li><a class="navbar__submenu-link" href="#">Features</a></li>
+              <li><a class="navbar__submenu-link" href="#">Integrations</a></li>
+           </ul>
+          </div>
         
-         <ul class="submenu">
-            <li>Overview</li>
-            <li>Pricing</li>
-            <li>Marketplace</li>
-            <li>Features</li>
-            <li>Integrations</li>
-         </ul>
+          <div>
+            <p class="navbar__menu-item">Company <img src="./images/icon-arrow-dark.svg" alt="arrow"></p>
+          
+            <ul class="navbar__submenu">
+              <li><a class="navbar__submenu-link" href="#">About</a></li>
+              <li><a class="navbar__submenu-link" href="#">Team</a></li>
+              <li><a class="navbar__submenu-link" href="#">Blog</a></li>
+              <li><a class="navbar__submenu-link" href="#">Careers</a></li>
+            </ul>
+          </div>
+        
+          <div>
+            <p class="navbar__menu-item">Connect <img src="./images/icon-arrow-dark.svg" alt="arrow"></p>
+          
+            <ul class="navbar__submenu">
+              <li><a class="navbar__submenu-link" href="#">Contact</a></li>
+              <li><a class="navbar__submenu-link" href="#">Newsletter</a></li>
+              <li><a class="navbar__submenu-link" href="#">LinkedIn</a></li>
+            </ul>
+          </div>
         </div>
-      
-        <div>
-          Company
         
-          <ul class="submenu">
-            <li>About</li>
-            <li>Team</li>
-            <li>Blog</li>
-            <li>Careers</li>
-          </ul>
-        </div>
-      
-        <div>
-          Connect
-        
-          <ul class="submenu">
-            <li>Contact</li>
-            <li>Newsletter</li>
-            <li>LinkedIn</li>
-          </ul>
+        <div class="navbar__session">
+          <a class="navbar__session-link" href="#">Login</a>
+          <a class="navbar__session-link" href="#">Sign Up</a>
         </div>
       </div>
-      
-      <div class="navbar__session">
-        <a href="#">Login</a>
-        <a href="#">Sign Up</a>
       </div>
-    </div>
   
     <div class="cta">
       <h1 class="cta__title">A modern publishing platform</h1>

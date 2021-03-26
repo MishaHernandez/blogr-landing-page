@@ -1,10 +1,14 @@
-.cta__button {
+%button {
     display: inline-block;
     font-family: $font2;
     font-weight: 700;
     text-decoration: none;
     padding: 14px 1.25rem;
+}
 
+.cta__button {
+    @extend %button;
+    
     &--primary {
         color: $cta-text;
         background-color: #fff;
@@ -16,5 +20,24 @@
         background-color: transparent;
         border: 1px solid #fff;
         border-radius: 2rem;
+    }
+}
+
+.navbar__session-link {
+    text-decoration: none;
+
+    &:first-child {
+        font-size: 17px;
+        color: $headings;
+        font-weight: 700;
+    }
+
+    &:last-child {
+        @extend %button;
+
+        background-image: linear-gradient(90deg, $very-light-red, $light-red);
+        color: $text;
+        border-radius: 2rem;
+        padding: 14px 2.3rem;
     }
 }
