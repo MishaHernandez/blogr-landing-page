@@ -6,7 +6,7 @@ import "../images/logo.svg";
 // import bgPatternIntro from "../images/bg-pattern-intro.svg";
 import "../images/favicon-32x32.png";
 // import iconArrowDark from "../images/icon-arrow-dark.svg";
-// import iconArrowLight from "../images/icon-arrow-light.svg";
+import iconArrowLight from "../images/icon-arrow-light.svg";
 import iconClose from "../images/icon-close.svg";
 import iconHamburger from "../images/icon-hamburger.svg";
 // import illustrationEditorDesktop from "../images/illustration-editor-desktop.svg";
@@ -24,6 +24,7 @@ export function changeMenuIcon() {
         menuIcon.setAttribute('src', iconHamburger);
     }
 }
+
 // console.log(logo);
 
 // document.querySelector(".navbar").firstElementChild.setAttribute("src", logo);

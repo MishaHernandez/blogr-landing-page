@@ -16,10 +16,12 @@
         &-item {
             font-size: 17px;
             color: $headings;
-            // pointer-events: none;
+            cursor: default;
+            
             img {
                 width: 10px;
                 margin-left: 4px;
+                pointer-events: none;
             }
         }
     }
