@@ -12,6 +12,9 @@ header {
 
     .navbar {
         margin-bottom: 7.6875rem;
+        @include desktop-up {
+            margin-bottom: 8.2rem;
+        }
     }
 
     .cta {
@@ -23,6 +26,10 @@ header {
             color: $text;
             text-align: center;
             font-weight: 600;
+            @include desktop-up {
+                font-size: 3.8rem;
+                margin-bottom: 20px;
+            }
         }
         &__subtitle {
             color: $text;
@@ -33,6 +40,10 @@ header {
         &__buttons {
             display: flex;
             justify-content: space-between;
+            @include desktop-up {
+                justify-content: center;
+                column-gap: 1rem;
+            }
         }
     }
 }

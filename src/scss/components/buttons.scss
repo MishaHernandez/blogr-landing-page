@@ -13,6 +13,10 @@
         color: $cta-text;
         background-color: #fff;
         border-radius: 2rem;
+        &:hover {
+            background-color: $cta-hover-bg;
+            color: $text;
+        }
     }
 
     &--secondary {
@@ -20,6 +24,10 @@
         background-color: transparent;
         border: 1px solid #fff;
         border-radius: 2rem;
+        &:hover {
+            background-color: $text;
+            color: $cta-text;
+        }
     }
 }
 
@@ -48,6 +56,10 @@
             background-image: none;
             background-color: #fff;
             color: $cta-text;
+            &:hover {
+                background-color: $cta-hover-bg;
+                color: #fff;
+            }
         }
     }
 }

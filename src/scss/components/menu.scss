@@ -15,9 +15,9 @@
             background-color: transparent;
             padding-left: 0;
             padding-right: 0;
-            // width: 87.2%;
         }
     }
+
     &__menu {
         font-weight: 600;
         border-bottom: 1px solid rgba(211, 211, 211, .5);
@@ -25,8 +25,12 @@
             display: flex;
             border-bottom: 0;
         }
-        
+
         &-item {
+            position: relative;
+        }
+        
+        &-title {
             font-size: 17px;
             color: $headings;
             cursor: default;
@@ -34,16 +38,17 @@
                 color: $text;
                 margin-right: 2rem;
                 font-family: $font2;
-                font-size: 16px;
+                // font-size: 16px;
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
             }
             
             img {
                 width: 10px;
                 margin-left: 4px;
                 pointer-events: none;
-                @include desktop-up {
-                    content: url("../images/icon-arrow-light.svg");
-                }
             }
         }
     }
@@ -57,6 +62,11 @@
         overflow-y: hidden;
         @include desktop-up {
             margin: 0;
+            position: absolute;
+            left: -20px;
+            width: 10rem;
+            text-align: left;
+            background-color: #fff;
         }
 
         &-link {
@@ -65,6 +75,16 @@
             margin-top: 8px;
             margin-bottom: 8px;
             color: gray;
+            @include desktop-up {
+                font-family: $font2;
+                font-size: 15px;
+                font-weight: 400;
+                color: $body-copy;
+                &:hover {
+                    font-weight: 700;
+                    color: $headings;
+                }
+            }
         }
     }
     &__session {
