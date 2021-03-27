@@ -1,0 +1,50 @@
+.main {
+    &__content {
+        @include desktop-up {
+            width: 50%;
+
+            &--one {
+                order: 1;
+            }
+            // &--two { }
+        }
+    }
+
+    &__article {
+        width: 79%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2.72rem;
+        @include desktop-up {
+            text-align: left;
+        }
+
+        &--large { 
+            @include desktop-up {
+                width: 50%;
+                margin-bottom: 0;
+            }
+        }
+
+        &-title {
+            margin-bottom: 1rem;
+            color: $headings;
+            
+            &--large {
+                font-size: 38px;
+                color: $text;
+                margin-top: 0;
+            }
+        }
+
+        &-paragraph {
+            line-height: 1.8;
+            color: $body-copy;
+
+            &--large {
+                color: $text;
+            }
+        }
+    }
+}

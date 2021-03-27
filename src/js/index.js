@@ -9,9 +9,9 @@ import "../images/favicon-32x32.png";
 // import iconArrowLight from "../images/icon-arrow-light.svg";
 import iconClose from "../images/icon-close.svg";
 import iconHamburger from "../images/icon-hamburger.svg";
-// import illustrationEditorDesktop from "../images/illustration-editor-desktop.svg";
+// import "../images/illustration-editor-desktop.svg";
 import "../images/illustration-editor-mobile.svg";
-// import illustrationLaptopDesktop from "../images/illustration-laptop-desktop.svg";
+// import "../images/illustration-laptop-desktop.svg";
 import "../images/illustration-laptop-mobile.svg";
 import "../images/illustration-phones.svg";
 
