@@ -26,7 +26,3 @@ export function changeMenuIcon() {
         menuIcon.setAttribute('src', iconHamburger);
     }
 }
-
-// console.log(logo);
-
-// document.querySelector(".navbar").firstElementChild.setAttribute("src", logo);

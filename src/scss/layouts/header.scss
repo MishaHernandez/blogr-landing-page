@@ -42,7 +42,8 @@ header {
             justify-content: space-between;
             @include desktop-up {
                 justify-content: center;
-                column-gap: 1rem;
+                -moz-column-gap: 1rem;
+                     column-gap: 1rem;
             }
         }
     }

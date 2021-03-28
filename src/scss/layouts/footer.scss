@@ -51,6 +51,11 @@ footer {
             text-decoration: none;
             font-family: $font2;
             color: $footer-text;
+            @include desktop-up {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
         }
     }
     &__attribution {

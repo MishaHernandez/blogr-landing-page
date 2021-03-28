@@ -79,11 +79,20 @@
         &--large {
             position: absolute;
             top: -180px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 23.4375rem;
+
+            @include tablet-landscape-up {
+                top: -220px;
+                width: 28rem;
+            }
 
             @include desktop-up {
                 position: relative;
-                top: 1.25rem;
-                width: 40%; /* test */
+                left: 280px;
+                top: 1.5rem;
+                width: 34rem;
             }
         }
     }
