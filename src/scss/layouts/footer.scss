@@ -5,6 +5,14 @@ footer {
 }
 
 .footer {
+    &__info {
+        @include desktop-up {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            margin-bottom: 4.875rem;
+        }
+    }
     &__illustration {
         display: block;
         width: 6.25rem;
@@ -12,12 +20,26 @@ footer {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5rem;
+        @include desktop-up {
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
     }
     &__article {
         text-align: center;
         color: $text;
         margin-bottom: 3.2rem;
         font-size: 18px;
+        @include desktop-up {
+            font-size: 15px;
+            margin-bottom: 0;
+            text-align: left;
+        }
+
+        &-title {
+            margin-top: 0;
+        }
 
         &-info {
             display: inline-flex;
@@ -35,6 +57,7 @@ footer {
         color: $footer-text;
         font-size: 11px;
         text-align: center;
+        padding-bottom: 1rem;
 
         &-link {
             color: hsl(355, 100%, 74%);
